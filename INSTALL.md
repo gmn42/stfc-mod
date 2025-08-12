@@ -53,7 +53,7 @@ Note: There is no difference between the versioned and unversioned zip files, th
 want to have the mod loaded.
 
 2) The mod settings are stored in the `~/Library/Preferences/com.stfcmod.startrekpatch` folder. This folder and a bare-bones `community_patch_settings.toml` settings file will be created automatically, so start the game from the
-launcher and close it they don't exist yet.  If the `Library` folder itself is not visible,
+launcher and close it if they don't exist yet.  If the `Library` folder itself is not visible,
 see the [mac-specific](#mac-specific) section below.
 
 3. For first time users of the Community Mod, it recommended to utilise the
