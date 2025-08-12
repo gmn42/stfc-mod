@@ -35,7 +35,11 @@ Note: There is no difference between the versioned and unversioned zip files, th
    If this folder isn't present, or no log files are created when running the game
    see the [windows-specific](#windows-specific) section below.)  
 
-3) Place the `version.dll` file from the downloaded .zip file into this folder.
+3. Move the extracted `version.dll` file into this folder.
+
+4. Run the game!  If all is well, and one does not already exist, the mod will
+   create a `community_patch_settings.toml` file populated with the default
+   values.
 
 4) __Recommended:__ If installing the mod for the first time, save the
 [sample configuration file](example_community_patch_settings.toml) to this folder with the name
