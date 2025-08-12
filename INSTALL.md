@@ -79,10 +79,15 @@ adjustment may be needed for it to load the mod  library correctly; see the
 
 ## Configuration
 
-Make any and all configuration changes in the `community_patch_settings.toml` file __only__. When the game
-is launched, this file will be read, and the parsed values for all settings, including default values for
-settings not in the _.toml_ file, will appear in `community_patch_runtime.vars`.  Do not make changes to
-the _.vars_ file; it will be overwritten the next time the game is launched.
+IMPORTANT: Any desired configuration changes should __ONLY__ be made in the 
+`community_patch_settings.toml` file   
+
+When the game is launched, this file will be read.  Any missing settings that have not been set  in the 
+_.toml_ file, will have a default value applied.  
+
+When starting the game, the configuration including default values are re-written to `community_patch_runtime.vars`.  You should NOT make any changes to this file.  This file is 
+constantly rewritten when the game starts so any modifications to it are never used and will be 
+lost.
 
 If you have any problems with a setting,
 check the parsed value in the _.vars_ file to verify that the setting was applied, and check the
