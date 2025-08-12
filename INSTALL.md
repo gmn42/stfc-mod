@@ -89,8 +89,8 @@ When starting the game, the configuration including default values are re-writte
 constantly rewritten when the game starts so any modifications to it are never used and will be 
 lost.
 
-If you have any problems with a setting,
-check the parsed value in the _.vars_ file to verify that the setting was applied, and check the
+If you have any problems with a setting, check for that setting in the _.vars_ file to verify 
+that the parse value of that setting was correctly applied.  You may also need to check the
 `community_patch.log` file to see if any errors were encountered while parsing the _.toml_ file.
 
 ## Problems?
