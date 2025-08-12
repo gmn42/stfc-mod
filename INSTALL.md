@@ -56,9 +56,10 @@ want to have the mod loaded.
 launcher and close it they don't exist yet.  If the `Library` folder itself is not visible,
 see the [mac-specific](#mac-specific) section below.
 
-3) __Recommended__: If installing the mod for the first time, replace bare-bones `community_patch_settings.toml`
-created by the mod with the [sample configuration file](example_community_patch_settings.toml).  This file contains
-additional comments that explain the available settings.
+3. For first time users of the Community Mod, it recommended to utilise the
+   [sample configuration file](example_community_patch_settings.toml) which can
+   be saved to the game folder with the name `community_patch_settings.toml`.  This 
+   sample file contains additional comments that explain the available settings.```
 
 The STFC game itself is located in the
 `~/Library/Application Support/Star Trek Fleet Command/Games/Star Trek Fleet Command/STFC/default/game` folder.  You should only need to access this folder if you need to view the `community_patch.log` file while troubleshooting a problem.
