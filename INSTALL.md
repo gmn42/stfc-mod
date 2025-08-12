@@ -41,10 +41,10 @@ Note: There is no difference between the versioned and unversioned zip files, th
    create a `community_patch_settings.toml` file populated with the default
    values.
 
-4) __Recommended:__ If installing the mod for the first time, save the
-[sample configuration file](example_community_patch_settings.toml) to this folder with the name
-`community_patch_settings.toml`.  The mod will create a bare-bones _.toml_ file automatically if none is found,
-but this sample file contains additional comments that explain the available settings.
+5. For first time users of the Community Mod, it recommended to utilise the
+   [sample configuration file](example_community_patch_settings.toml) which can
+   be saved to the game folder with the name `community_patch_settings.toml`.  This 
+   sample file contains additional comments that explain the available settings.```
 
 ### Mac
 
