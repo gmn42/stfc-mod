@@ -2,7 +2,10 @@ add_rules("mode.debug", "mode.release")
 
 target("macOSLauncher")
 do
-    add_rules("xcode.application")
+    set_kind("binary")
+    -- add_rules("xcode.application")
+    add_rules("xmake.rules.mac.app") -- Add macOS application rules to include dynamic libraries and resources
+
     add_files("src/**/*.swift")
     add_files("src/*.swift", "src/*.xcassets")
     add_files("src/Info.plist")
