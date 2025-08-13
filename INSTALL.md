@@ -56,8 +56,8 @@ want to have the mod loaded.
 `~/Library/Preferences/com.stfcmod.startrekpatch` with a `community_patch_settings.toml` file
 populated with the default values.  
 
-   Note: By default, MacOS hides the `~/Library` folder, so if it isn't visible in Finder,
-   see the [mac-specific](#mac-specific) section below to get access.
+   Note: By default, MacOS hides the `~/Library` folder in Finder, so if it isn't visible,
+   see the [mac-specific](#mac-specific) section below for tips on opening it.
 
 3. For first time users of the Community Mod, it recommended to utilise the
    [sample configuration file](example_community_patch_settings.toml), which can
