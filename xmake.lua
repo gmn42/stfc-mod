@@ -25,6 +25,7 @@ if is_plat("macosx") then
     includes("macos-dylib")
     includes("macos-loader")
     includes("macos-launcher")
+    add_rules("xmake.rules.mac.app") -- Add macOS application rules to include dynamic libraries and resources
 end
 
 add_rules("mode.debug")
