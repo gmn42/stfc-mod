@@ -29,11 +29,11 @@ Note: There is no difference between the versioned and unversioned zip files, th
 
 1. Download the `stfc-community-patch.zip` file from your chosen [github release](https://github.com/netniv/stfc-mod/releases/) and extract the `version.dll` file.
 
-2. Open the game folder in Explorer.  The default folder for both the game and the settings file is 
+2. Open the game folder in Explorer.  The default folder for both the game and the settings file is
    `C:\Games\Star Trek Fleet Command\Star Trek Fleet Command\default\game`
 
    If this folder isn't present, or no log files are created when running the game
-   see the [windows-specific](#windows-specific) section below.)  
+   see the [windows-specific](#windows-specific) section below.
 
 3. Move the extracted `version.dll` file into this folder.
 
@@ -42,26 +42,29 @@ Note: There is no difference between the versioned and unversioned zip files, th
    values.
 
 5. For first time users of the Community Mod, it recommended to utilise the
-   [sample configuration file](example_community_patch_settings.toml) which can
-   be saved to the game folder with the name `community_patch_settings.toml`.  This 
-   sample file contains additional comments that explain the available settings.```
+   [sample configuration file](example_community_patch_settings.toml), which can
+   be saved to the game folder with the name `community_patch_settings.toml`.  This
+   sample file contains additional comments that explain the available settings.
 
 ### Mac
 
-1) Download the `stfc-community-patch-installer.dmg` file from your chosen
+1. Download the `stfc-community-patch-installer.dmg` file from your chosen
 [github release](https://github.com/netniv/stfc-mod/releases/), then open it and drag and drop the launcher to your Applications folder.  This launcher will be used to start the game any time you
 want to have the mod loaded.
 
-2) The mod settings are stored in the `~/Library/Preferences/com.stfcmod.startrekpatch` folder. This folder and a bare-bones `community_patch_settings.toml` settings file will be created automatically, so start the game from the
-launcher and close it if they don't exist yet.  If the `Library` folder itself is not visible,
-see the [mac-specific](#mac-specific) section below.
+2. Run the game from the launcher!  If all is well, the mod will create the settings folder
+`~/Library/Preferences/com.stfcmod.startrekpatch` with a `community_patch_settings.toml` file
+populated with the default values.  
+
+   Note: By default, MacOS hides the `~/Library` folder, so If this folder isn't visible in Finder,
+   see the [mac-specific](#mac-specific) section below to get access to the settings file.
 
 3. For first time users of the Community Mod, it recommended to utilise the
-   [sample configuration file](example_community_patch_settings.toml) which can
-   be saved to the game folder with the name `community_patch_settings.toml`.  This 
-   sample file contains additional comments that explain the available settings.```
+   [sample configuration file](example_community_patch_settings.toml), which can
+   be saved to the settings folder with the name `community_patch_settings.toml`.  This
+   sample file contains additional comments that explain the available settings.
 
-The STFC game itself is located in the
+Note that the STFC game itself is located in the
 `~/Library/Application Support/Star Trek Fleet Command/Games/Star Trek Fleet Command/STFC/default/game` folder.  You should only need to access this folder if you need to view the `community_patch.log` file while troubleshooting a problem.
 
 ### Wine/Linux
