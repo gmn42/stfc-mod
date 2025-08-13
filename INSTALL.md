@@ -142,16 +142,12 @@ An Explorer window will open with the correct folder selected.
 
 ### Mac Specific
 
-Apple likes to hide the `Library` folder by default. There are several ways to open the correct folder:
+MacOS hides the `Library` folder in Finder by default. There are several ways to open it:
 
 - Hold the `⌥ option` key (or `Alt` on a PC keyboard) in __Finder__ and click the __Go to__ menu item
 and then click the __Library__ folder item
 - Press `⌘ cmd`+`⇧ shift`+`G` in the __Finder__ for the Goto box and type in `~/Library`
 - Use __Terminal__ and type: `open ~/Library`
-
-You need to have run the game with the mod at least once for any settings (toml), runtime variables (.vars)
-or log files (.log) to appear.  Then, once you have the correct folder, you should find the file
-`community_patch_settings.toml` . See the [`example_community_patch_settings.toml`](example_community_patch_settings.toml) as a starting point.
 
 ### Wine/Linux Specific
 
