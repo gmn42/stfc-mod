@@ -151,6 +151,7 @@ and then click the __Library__ folder item
 
 ### Wine/Linux Specific
 
-To use the Windows version of the mod under Wine (generally Linux), the wine DLL overrides setting _must_ be set to `n,b` for `version.dll` or it will not be loaded.  If you have installed the game using the [STFC installer for the Lutris game manager](https://lutris.net/games/star-trek-fleet-command/) (recommended), this has already been set up in the runner configuration.  Otherwise, it can be set in the `winecfg.exe` Libraries tab or by setting the `WINEDLLOVERRIDES` enviroment variable to `version.dll=n,b` before launching the game.
+To use the Windows version of the mod under Wine, the wine DLL override setting for `version.dll` _must_ be set to `n,b` or it will not be loaded.  If you have installed the game using the [STFC installer for the Lutris game manager](https://lutris.net/games/star-trek-fleet-command/) (recommended), this override will have already been defined in the runner configuration.   Otherwise, it can be set in the `winecfg.exe` Libraries tab or by setting the `WINEDLLOVERRIDES` enviroment variable to `version.dll=n,b` before launching the game.
 
-Wine mod installation generally follows the Windows directions above; just place the `version.dll` in the `drive_c/Games/Star Trek Fleet Command/Star Trek Fleet Command/default/game` directory relative to the wine environment (WINEPREFIX) you're running it under.
+For installation, generally follow the Windows directions above.  The only real change
+will be the location of the game folder, which should be in the directory-  `drive_c/Games/Star Trek Fleet Command/Star Trek Fleet Command/default/game` relative the wine environment (WINEPREFIX) you're running it under.
